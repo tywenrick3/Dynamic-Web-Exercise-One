@@ -1,3 +1,3 @@
-#Excersice One by Ty Wenrick
+Excersice One by Ty Wenrick
 
-#Dynamic Web Development
+Dynamic Web Development
