@@ -8,5 +8,41 @@
     font-size: 80px;
     font-weight: normal;
     margin: 0;
+    padding: 40px;
+}
+
+.ArticleCardWrapper{
+    align-items: flex-start;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 25px;
+}
+
+.ArticleCardImage{
+    flex-basis: 25%;
+}
+
+.ArticleCardText{
+    flex-basis: 75%;
+}
+
+.ArticleCardTitle{
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.ArticleCardDate{
+
+}
+
+.ArticleCardBlurb{
+
+}
+
+.ArticleCardLink{
+
 }
 
