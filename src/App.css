@@ -22,7 +22,8 @@
 
 .ArticleCardImage{
     flex-basis: 25%;
-    padding: 20px;
+    padding: 15px;
+    
 }
 
 .ArticleCardImage img {
@@ -42,11 +43,11 @@
 }
 
 .ArticleCardDate{
-
+    padding-left: 10px;
 }
 
 .ArticleCardBlurb{
-
+    font-size: 16px;
 }
 
 .ArticleCardLink{
