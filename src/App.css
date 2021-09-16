@@ -22,6 +22,7 @@
 
 .ArticleCardImage{
     flex-basis: 25%;
+    padding: 20px;
 }
 
 .ArticleCardImage img {
