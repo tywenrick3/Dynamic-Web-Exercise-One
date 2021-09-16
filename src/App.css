@@ -1,11 +1,12 @@
 .PageWrapper{
     margin: 0 auto;
-    max-width: 1040px;
+    max-width: 1160px;
     padding: 0 25px;
 }
 
 .HeaderOneStyle{
     font-size: 80px;
     font-weight: normal;
+    margin: 0;
 }
 
