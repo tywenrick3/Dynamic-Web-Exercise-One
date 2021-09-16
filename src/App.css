@@ -24,6 +24,12 @@
     flex-basis: 25%;
 }
 
+.ArticleCardImage img {
+    height: auto;
+    width: 100%;
+    
+}
+
 .ArticleCardText{
     flex-basis: 75%;
 }
@@ -43,6 +49,6 @@
 }
 
 .ArticleCardLink{
-
+    font-weight: bold;
 }
 

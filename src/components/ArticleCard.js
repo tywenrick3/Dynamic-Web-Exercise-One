@@ -1,15 +1,15 @@
 import React from 'react';
 
-function ArticleCard(){
+function ArticleCard({article}){
     return(
         <div className='ArticleCardWrapper'>
             <div className='ArticleCardImage'>
-                <img src='./' alt='boilerplate image'/>
+                <img src={article.image.url} alt={article.image.alt}/>
             </div>
             <div className='ArticleCardText'>
-                <h2 className='ArticleCardTitle'>Article Title</h2>
-                <p className='ArticleCardDate'>Date</p>
-                <p className='ArticleCardBlurb'>Blurb</p>
+                <h2 className='ArticleCardTitle'>{article.title}</h2>
+                <p className='ArticleCardDate'>{article.publishedDate}</p>
+                <p className='ArticleCardBlurb'>{article.blurb}</p>
                 <p className='ArticleCardLink'>
                     <a href='#'>Read More</a>
                 </p>
