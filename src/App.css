@@ -54,3 +54,11 @@
     font-weight: bold;
 }
 
+a:link {
+    color:pink;
+    font-weight: bold;
+}
+
+a:visited {
+    color: blue;
+}
