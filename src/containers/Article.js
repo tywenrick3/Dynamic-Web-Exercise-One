@@ -10,6 +10,7 @@ function Article() {
         setArticle(dataToSet);
     }, [id]);
 
+
     return (
         <main>
             <section className='ArticleHeader'>

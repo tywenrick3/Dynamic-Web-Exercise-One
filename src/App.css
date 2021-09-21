@@ -8,7 +8,7 @@
     font-size: 80px;
     font-weight: normal;
     margin: 0;
-    padding: 40px;
+    padding: 40px 0;
 }
 
 .ArticleCardWrapper{
@@ -42,8 +42,7 @@
 }
 
 .ArticleCardDate{
-    margin: 0 auto;
-    padding-left: 10px;
+    margin-bottom: 0;
 }
 
 .ArticleCardBlurb{
