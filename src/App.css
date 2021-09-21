@@ -29,7 +29,6 @@
 .ArticleCardImage img {
     height: auto;
     width: 100%;
-    
 }
 
 .ArticleCardText{
@@ -43,15 +42,66 @@
 }
 
 .ArticleCardDate{
+    margin: 0 auto;
     padding-left: 10px;
 }
 
 .ArticleCardBlurb{
-    font-size: 16px;
+    font-size: 20px;
+    line-height: 1.5;
 }
 
 .ArticleCardLink{
     font-weight: bold;
+}
+
+.ArticleHeader{
+    background: #e5e5e5;
+    padding: 40px 0;
+}
+
+.ArticleHeaderText{
+    margin: 0 auto;
+    max-width: 640px;
+    padding: 0 25px;
+    line-height: 1;
+}
+
+
+.ArticleHeaderBlurb {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.ArticleText{
+    margin: 0 auto;
+    max-width: 640px;
+    padding: 0 25px;
+}
+
+.ArticleDate {
+    margin: 0 auto;
+    padding: 0 25px;
+    line-height: 1.5;
+}
+
+.ArticleText p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.ArticleText h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.ArticleText h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
 }
 
 a:link {
